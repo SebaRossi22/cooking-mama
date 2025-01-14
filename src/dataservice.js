@@ -11,12 +11,12 @@ import {
 } from "@firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "***********************",
-  authDomain: ""***********************",
-  projectId: ""***********************",
-  storageBucket: ""***********************",
-  messagingSenderId: ""***********************",
-  appId: ""***********************"
+  apiKey: "AIzaSyAi73jlLn5ilhby_Df6j-uaVrxpBB8s7cs",
+  authDomain: "cooking-2aeb4.firebaseapp.com",
+  projectId: "cooking-2aeb4",
+  storageBucket: "cooking-2aeb4.firebasestorage.app",
+  messagingSenderId: "1097679569718",
+  appId: "1:1097679569718:web:fac91b710a8b5b2642e997"
 };
 
 const app = initializeApp(firebaseConfig);

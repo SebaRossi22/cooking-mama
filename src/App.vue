@@ -45,12 +45,9 @@
       <v-row class="align-start">
         <v-col cols="auto">
           <v-img
-            width="30px"
-            src="https://web.app-ofcr.com/OFFICE_CREATE/Website/APP_AC/APP_CMArcade/_img/appIcon_mama_150311.png"
+            width="50px"
+            src="../image/logo.png"
           ></v-img>
-        </v-col>
-        <v-col cols="auto">
-          <v-toolbar-title>Cooking Mama</v-toolbar-title>
         </v-col>
       </v-row>
       <p v-if="accesso === 'true'" class="pe-2">Benvenuto {{ user }}</p>
@@ -91,4 +88,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+/* CSS qui */
+</style>
